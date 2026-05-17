@@ -9,7 +9,6 @@ from pathlib import Path
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 API_KEY = os.getenv("API_KEY")
-print(f"API_KEY: {API_KEY}")
 
 
 CHANNEL_ID = "MrBeast"
