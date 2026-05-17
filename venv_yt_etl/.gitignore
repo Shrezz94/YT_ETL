@@ -2,3 +2,4 @@
 venv_yt_etl/
 __pycache__/
 .env
+logs/
